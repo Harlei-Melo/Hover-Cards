@@ -11,10 +11,10 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(bartek-garbowicz-xJeCLqsBUqc-unsplash.jpg);
-    background-position: center;
-    background-size: contain;
-    
+    background-image: url(pexels-aleksandar-pasaric-1694000.jpg);
+    background-position: bottom;
+    background-size: cover;
+ 
 }
 
 .container {
@@ -177,8 +177,6 @@ body {
     transition: 0.5s;
     z-index: 1;
 }
-    
-
 
 .container .box:hover .content {
     left: -25px;
@@ -186,7 +184,6 @@ body {
 }
 
 .container .box .content h2 {
-
     font-size: 2em;
     margin-bottom: 10px;
 }
